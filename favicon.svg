@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">seitactics terminal favicon</title>
+  <desc id="desc">A charcoal rounded terminal tile with a cream prompt and green cursor.</desc>
+  <rect width="512" height="512" rx="112" fill="#27313a"/>
+  <path d="M139 160 252 256 139 352" fill="none" stroke="#f7f3e8" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M284 352h92" fill="none" stroke="#91b49b" stroke-width="58" stroke-linecap="round"/>
+</svg>
