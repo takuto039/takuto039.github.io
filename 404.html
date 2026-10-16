@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>404 | takuto</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#27313a">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .notfound { min-height:calc(100vh - 70px); display:grid; place-items:center; padding-block:60px; }
+    .notfound .terminal { width:min(560px,100%); transform:none; }
+    .notfound .hero-links { margin-top:32px; }
+  </style>
+</head>
+<body>
+<main>
+  <header class="site-header">
+    <a class="brand" href="/"><span class="status-dot"></span>takuto</a>
+    <nav aria-label="メインナビゲーション"><a href="/#about">自己紹介</a><a href="/#cert">資格</a><a href="https://github.com/takuto039">GitHub ↗</a></nav>
+  </header>
+  <section class="notfound wrap">
+    <div>
+      <div class="terminal" aria-label="ページが見つかりません">
+        <div class="terminal-bar"><span></span><span></span><span></span><p>404.txt</p></div>
+        <div class="terminal-body"><p><b>$</b> curl -I this-page</p><strong>HTTP/1.1 404 Not Found</strong><p><b>$</b> echo $?</p><strong>ページが見つかりませんでした <i class="cursor"></i></strong></div>
+      </div>
+      <div class="hero-links"><a class="button" href="/">トップへ戻る</a></div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
