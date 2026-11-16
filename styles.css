@@ -27,7 +27,7 @@ h1 { font-size:clamp(30px,5vw,62px); line-height:1.2; letter-spacing:-.055em; ma
 .terminal-body p { margin:18px 0 2px; color:#a5b1ba; }.terminal-body p:first-child{margin-top:0}.terminal-body b{color:#91b49b}.terminal-body strong{font-weight:500;color:#fff}.cursor{display:inline-block;width:8px;height:16px;background:#7ca7c7;vertical-align:-3px;animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
 .about { padding-block:110px; border-top:1px dashed #c9c1b1; }
-.section-title { display:flex; gap:18px; align-items:flex-start; margin-bottom:56px; }.section-title>span{padding-top:5px;color:#8c969c;font:12px ui-monospace,monospace}.section-title p{margin:0 0 5px;color:#5b88a7;font:700 11px ui-monospace,monospace;letter-spacing:.15em}.section-title h2,footer h2{margin:0;font-size:clamp(32px,4vw,50px);letter-spacing:-.04em}
+.section-title { display:flex; gap:18px; align-items:flex-start; margin-bottom:56px; }.section-title>span{padding-top:10px;color:#8c969c;font:12px ui-monospace,monospace}.section-title p{margin:0 0 5px;color:#5b88a7;font:700 11px ui-monospace,monospace;letter-spacing:.15em}.section-title h2,footer h2{margin:0;font-size:clamp(32px,4vw,50px);letter-spacing:-.04em}
 .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:36px; }
 .note-card { padding:38px; background:#fff6c9; border:1px solid #dfd19d; border-radius:4px 24px 24px 24px; box-shadow:8px 8px 0 rgba(225,206,135,.28); transform:rotate(-1deg); }
 .note-card p { margin:0; font-size:17px; line-height:1.9; }.note-card p+p{margin-top:15px;color:#6e6856}
