@@ -1,6 +1,7 @@
 {
   "name": "takuto | サーバーのことを勉強中",
   "short_name": "takuto",
+  "start_url": "/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
